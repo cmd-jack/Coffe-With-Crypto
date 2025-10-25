@@ -8,7 +8,7 @@ app.use(cors());
 // ---------- CONFIG ----------
 const HELIUS_API_KEY = "5e625ff9-1643-47d1-93af-191efa78931d";
 const WALLET_ADDRESS = "AeAiU3YnaNYGuHU4GD8iEX66ELrabQpyFdtsjFiCoBHd";
-const MIN_AMOUNT_SOL = 0.1;
+const MIN_AMOUNT_SOL = 0.001;
 
 let lastSignature = "";
 let paymentHistory = []; // store recent payments
